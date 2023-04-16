@@ -1,3 +1,6 @@
+#ifndef DS_DOUBLY_LINKED_LIST
+#define DS_DOUBLY_LINKED_LIST
+
 #include <stdlib.h>
 #include <stdbool.h>
 
@@ -28,3 +31,5 @@ bool dll_insert_after(node **list, int target, int data);
 bool dll_remove_front(node **list);
 
 bool dll_remove_back(node **list);
+
+#endif
