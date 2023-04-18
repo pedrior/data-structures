@@ -4,7 +4,7 @@
 #include <stdbool.h>
 
 typedef struct node {
-  float data;
+  int data;
   struct node *next;
 } Node;
 
